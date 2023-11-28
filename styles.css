@@ -1,0 +1,132 @@
+body, h2, table {
+    margin: 0;
+    padding: 100px;
+}
+
+.canvas {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    position:relative;
+}
+
+h2 {
+    top: 10px;
+    left: 50px;
+    position: absolute;
+}
+
+.form-section {
+    width: 520px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    position: relative;
+    box-sizing: border-box;
+}
+
+.table-section {
+    width: 600px;
+    height: 130px;
+    position: relative;
+    top: -10px;
+    box-sizing: border-box;
+}
+
+.form-frame {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select {
+    width: calc(90% - 22px); /* Adjust the width as needed */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px; /* Add margin to the left as needed */
+}
+
+.btn {
+    padding: 8px 15px;
+    border: 1px solid #f0ad4e;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.btn.save {
+    background-color: #fb7a46;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.btn.reset {
+    background-color: transparent;
+    color: #fb7a46;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.edit, .delete {
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.edit {
+    background-color: #0275d8;
+}
+
+.delete {
+    background-color: #d9534f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+th {
+    background-color: #a5a5a5;
+}
